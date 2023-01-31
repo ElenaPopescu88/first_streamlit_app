@@ -33,7 +33,7 @@ try:
     streamlit.error("Please select a fruit to get information.")
   else:
 #streamlit.write('The user entered ', fruit_choice)
-   back_from_function = get_fruityvice_data(fruit_choice)
+    back_from_function = get_fruityvice_data(fruit_choice)
 #import requests
     
 #streamlit.text(fruityvice_response.json())
