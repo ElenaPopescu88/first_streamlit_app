@@ -44,7 +44,7 @@ try:
     streamlit.dataframe(back_from_function)
 
 except URLError as e:
-  strealit.error()
+  streamlit.error()
 
 streamlit.stop()
 import snowflake.connector
